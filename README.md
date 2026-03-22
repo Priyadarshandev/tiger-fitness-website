@@ -1,16 +1,70 @@
-# React + Vite
+# Tiger Fitness Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive business website built for Tiger Fitness, 
+a gym in Patna. Designed to generate leads via WhatsApp and 
+call CTAs, with conversion-focused design and strong local SEO.
 
-Currently, two official plugins are available:
+Live: https://tiger-fitness-website.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Hero section with gym stats and dual CTAs (Join Now / Call Now)
+- Services section covering Weight Training, Cardio, Personal 
+  Training, and Ladies Batch
+- Why Choose Us — ratings, pricing, certified trainers, 
+  clean equipment
+- Testimonials carousel
+- Pricing plans — Basic, Monthly, and Master (Quarterly)
+- Photo gallery from inside the gym
+- Contact section with address, hours, phone, and embedded 
+  Google Maps
+- Floating WhatsApp button for instant lead capture
+- Fully mobile-responsive across all screen sizes
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React 18
+- Vite
+- Tailwind CSS
+- Vercel (deployment)
+
+---
+
+## Project Structure
+
+src/
+├── components/
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   ├── Footer.jsx
+│   ├── Gallery.jsx
+│   ├── Hero.jsx
+│   ├── Navbar.jsx
+│   ├── Pricing.jsx
+│   ├── Services.jsx
+│   ├── Testimonials.jsx
+│   ├── WhatsAppButton.jsx
+│   └── WhyChooseUs.jsx
+└── assets/
+
+---
+
+## Installation
+
+git clone https://github.com/Priyadarshandev/tiger-fitness-website.git
+cd tiger-fitness-website
+npm install
+npm run dev
+
+---
+
+## Contact
+
+Priyadarshan Kumar — Full-Stack Developer
+Email: priyadarshanwork24@gmail.com
+Portfolio: https://priyadarshan-dev-portfolio.vercel.app
+GitHub: https://github.com/Priyadarshandev
